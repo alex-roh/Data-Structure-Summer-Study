@@ -74,7 +74,6 @@ int main(int argc, char** argv) {
 	} 
 	
 	// 가장 높은 기둥의 넓이를 계산 
-	cout << "rightstack_top = " << rightstack.top() << ", leftstack_top = " << leftstack.top() << endl;
 	width = rightstack.top() - leftstack.top() + 1;
 	height = beams[max_pos];
 	area += width * height;
